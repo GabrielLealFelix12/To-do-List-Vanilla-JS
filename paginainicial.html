@@ -1,0 +1,36 @@
+<html>
+
+<head>
+<meta charset="ANSI">	
+<title> To do List </title>
+</head>
+
+<body>
+ 
+ <h1> Estrutura do Site </h1>
+ 
+ <div id="botoes"> 
+ 	<input type="submit" id="b_teste" value="Objetivos">
+ 	<!--<input id="zuado" type="submit" value="Zuado!">-->
+ 	<input type="submit" id ="listadeobjetivospronta" value="Listar Objetivos!"> 
+ </div>
+ 
+ 
+ <div id="listadeobjetivos">
+ 
+ <label id="labelu" for="objN"> Objetivo: </label>
+ <textarea id="objN" name="message" rows="5" cols="30"> Digite algo aqui... </textarea> 
+ <input type="submit" id="adicionarobjvs" onclick= "AddObjetivo()" value="Clica-Me!">
+ 
+ </div>
+ 
+ <div id="classobj" class="Obj">
+ </div>	
+ 
+</body>
+
+<script src="scripts_js/frontend2.js"></script>
+
+<link rel="stylesheet" href="css/estilofrontend.css">
+
+</html>

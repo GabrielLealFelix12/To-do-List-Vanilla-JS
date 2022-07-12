@@ -1,0 +1,65 @@
+
+#objetivoProposto{
+	margin: 0 auto;
+   max-width: 22%;
+   padding: 10px;
+}
+#objetivoProposto:hover{
+	color:white;
+	font-size: 20px;
+}
+
+
+@font-face {
+    font-family: 'vt323regular';
+    src: url('vt323-regular-webfont.woff2') format('woff2'),
+         url('vt323-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+	font-family: 'vt323regular';
+	background-color: #0083E0;
+}
+
+h1{   
+ 		font-family: 'vt323regular';
+ 		text-align: center;
+ }
+ textarea{
+ 		font-family: 'vt323regular';
+ 		width: 300px;
+ 		height: 20px;
+
+ }
+
+input{
+		font-family: 'vt323regular';
+		background-color: white;
+        color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+}
+input:hover{
+			background-color: black;
+			color: white;
+}
+
+#botoes{
+   margin: 0 auto;
+   max-width: 18%;
+   padding: 10px;
+}
+#listadeobjetivos{
+	margin: 0 auto;
+   max-width: 22%;
+   padding: 10px;
+}
